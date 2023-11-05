@@ -1,0 +1,26 @@
+{
+    "tasks": [
+        {
+            "label": "Build",
+            "detail": "Builds the Project",
+            "command": "make",
+            "args": [
+                "--jobs"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":"$gcc"
+        },
+        {
+            "label": "Clean",
+            "detail": "Cleans the Project",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "group": "build"
+        }
+    ]
+}
